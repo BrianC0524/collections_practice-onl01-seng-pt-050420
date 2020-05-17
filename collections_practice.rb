@@ -48,9 +48,9 @@ def find_a(array)
   array.collect do |name| 
     
     if name.start_with?("a")
-      name << a_start
+      a_start << name
     else
-      name << no_a_start
+      no_a_start << name
     end
   end
   
