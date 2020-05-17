@@ -47,8 +47,6 @@ def find_a(array)
   array.collect do |name|
     
     a_start << name if name.start_with?("a")
-      
-      
     
   end
   
@@ -56,4 +54,7 @@ def find_a(array)
   
   
   
+end
+
+def sum_array(array)
 end
