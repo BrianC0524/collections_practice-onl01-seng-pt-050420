@@ -64,10 +64,12 @@ end
 
 def add_s(array)
   
+  adding_s = []
+  
   array.each_with_index.collect do |word, index|
     
-   if word.length <  && index > 1
-     word.join("s")
+   if index < 1  && index > 1
+     adding_s << word.join("s")
    else
      word
    end
