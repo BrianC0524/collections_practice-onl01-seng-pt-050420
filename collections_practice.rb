@@ -32,6 +32,14 @@ end
 
 def kesha_maker(array)
   
-  array.collect {|name| name.gsub("$", 3)}
+  array.each do |name|
+    
+    name.each do |letter|
+      
+      if letter.index[2]
+      
+    end
+    
+  end
   
 end
