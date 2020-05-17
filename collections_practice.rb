@@ -51,6 +51,7 @@ def find_a(array)
      return name
    else
      "That string doesn't start with 'a'!"
+   end
       
   end
   
