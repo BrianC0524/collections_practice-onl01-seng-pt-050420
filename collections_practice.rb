@@ -42,6 +42,10 @@ end
 
 def find_a(array)
   
-  array.collect {|name| name.start_with?("a")}
+  a_start = []
+  
+  array.collect {|name| a_start << name.start_with?("a")}
+  
+  a_start
   
 end
