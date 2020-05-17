@@ -34,9 +34,7 @@ def kesha_maker(array)
   
   array.each do |name|
     
-    name.each do |letter|
-      
-      if letter.index[2]
+    name.slice
       
     end
     
