@@ -69,7 +69,7 @@ def add_s(array)
   array.each_with_index.collect do |word, index|
     
    if index < 1 || index > 1
-     adding_s << word.join("s")
+     adding_s << word << "s"
    else index == 1
      adding_s << word
    end
