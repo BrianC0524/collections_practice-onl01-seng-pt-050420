@@ -52,6 +52,7 @@ def find_a(array)
     else
       name << no_a_start
     end
+  end
   
   
   
