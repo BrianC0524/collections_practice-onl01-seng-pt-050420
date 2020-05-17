@@ -44,7 +44,7 @@ def find_a(array)
   
   a_start = []
   
-  array.collect {|name| a_start << name.start_with?("a")}
+  array.each {|name| a_start << name.start_with?("a")}
   
   a_start
   
