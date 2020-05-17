@@ -66,7 +66,7 @@ def add_s
   
   array.each_with_index.collect do |word, index|
     
-    word.join("s") if word[i] < 1 && word[i] > 1
+    return word.join("s") if word[i] < 1 && word[i] > 1
     
   end
   
