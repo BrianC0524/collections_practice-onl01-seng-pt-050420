@@ -70,8 +70,8 @@ def add_s(array)
     
    if index < 1  && index > 1
      adding_s << word.join("s")
-   else
-     word
+   else index == 1
+     adding_s << word
    end
     
   end
