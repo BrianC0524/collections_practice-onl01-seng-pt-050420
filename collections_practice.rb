@@ -75,7 +75,6 @@ def add_s(array)
    end
     
   end
-  puts adding_s
   adding_s
   
 end
