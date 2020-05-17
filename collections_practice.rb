@@ -42,10 +42,11 @@ end
 
 def find_a(array)
   
-  a_start = []
-  no_a_start = []
+  
   
   a_start = [array.start_with?("a")]
+  
+  a_start
       
   end
   
