@@ -44,7 +44,16 @@ def find_a(array)
   
   
   
-  array.start_with?("a")
+  array.collect do |name|
+    
+    if name.start_with?("a")
+      return name
+    else
+      false
+    end
+      
+    
+  end
   
   
   
