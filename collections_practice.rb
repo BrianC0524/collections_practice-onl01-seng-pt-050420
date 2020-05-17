@@ -47,11 +47,7 @@ def find_a(array)
   
   array.collect do |name| 
     
-   if name.start_with?("a")
-     return name
-   else
-     "That string doesn't start with 'a'!"
-   end
+   return name if name.start_with?("a")
       
   end
   
