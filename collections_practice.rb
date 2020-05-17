@@ -42,9 +42,16 @@ end
 
 def find_a(array)
   
+  a_start = []
+  no_a_start = []
   
-  
-  array.collect {|name| name.start_with?("a")}
+  array.collect do |name| 
+    
+    if name.start_with?("a")
+      name << a_start
+    else
+      name << no_a_start
+    end
   
   
   
